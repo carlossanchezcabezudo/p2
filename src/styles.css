@@ -1,0 +1,83 @@
+/* Estilos generales */
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #0c0b0b;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #f78571;
+}
+
+p {
+    margin-bottom: 15px;
+}
+/* Color de fondo para el encabezado (header) */
+header {
+    background-color: #31543a; 
+}
+
+/* Color de fondo para el cuerpo (body) */
+body {
+    background-color: #d0f7d4; 
+}
+
+
+/* Color de fondo para el pie de página (footer) */
+footer {
+    background-color: #c2e5c9; 
+}
+
+
+/* Estilos para los enlaces */
+a {
+    color: #f78571;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/* Estilos para las imágenes */
+img {
+    max-width: 100%; 
+    margin: 0 auto; 
+}
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    border:none;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .navbar ul li {
+        display: block;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+}

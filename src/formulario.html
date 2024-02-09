@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inversión en el Mercado de Valores</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form action="procesamientoformulario.php" method="get o post">
+        <h2>Formulario del pedido</h2>
+        <fieldset>
+            <legend>Datos personales</legend>
+            <p>
+                <label for="name_id">Nombre:</label><br>
+                <input type="text" id="name_id" name="nombre" required>
+            </p>
+            <p>
+                <label for="phone_id">Teléfono:</label><br>
+                <input type="tel" id="phone_id" name="telefono" required>
+            </p>
+            <p>
+                <label for="email_id">Email:</label><br>
+                <input type="email" id="email_id" name="email" required>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Empresa</legend>
+            <p>
+                <label for="model_id">A continuación, especifique las empresas de las que quiere obtener información.</label><br>
+            </p>
+            <p>¿De qué empresa desea obtener información?:
+                <ul>
+                    <li>
+                        <label for="empresa1_id">1ª</label>
+                        <input type="text" id="empresa1_id" name="empresa1" required>
+                    </li>
+                    <li>
+                        <label for="empresa2_id">2ª</label>
+                        <input type="text" id="empresa2_id" name="empresa1" required>
+                    </li>
+                    <li>
+                        <label for="empresa3_id">3ª</label>
+                        <input type="text" id="empresa3_id" name="empresa1" required>
+                    </li>
+                </ul>
+            </p>
+            <p>¿Qué información desea obtener de cada empresa?
+                <ul>
+                    <li>
+                        <label for="info1_id">Información 1ª empresa:</label>
+                        <input type="text" id="info1_id" name="info1" required>
+                    </li>
+                    <li>
+                        <label for="info2_id">Información 2ª empresa:</label>
+                        <input type="text" id="info2_id" name="info2" required>
+                    </li>
+                    <li>
+                        <label for="info3_id">Información 3ª empresa:</label>
+                        <input type="text" id="info3_id" name="info3" required>
+                    </li>
+                </ul>
+            </p>
+        </fieldset>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <nav>
+        <p>
+            <a href="index.html">Volver al Inicio</a>
+        </p>
+    </nav>
+
+    <footer>
+        <p>Email de contacto: mercadovalores@icloud.com </p>
+        <p>Carlos Sánchez-Cabezudo Pinto</p>
+    </footer>
+</body>
+</html>
